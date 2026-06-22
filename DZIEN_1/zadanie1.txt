@@ -1,0 +1,22 @@
+Zadanie: Lista zakupów
+Cel
+
+Przećwiczyć podstawowe operacje na kolekcjach:
+
+lista
+pętla for
+dodawanie elementu
+liczenie elementów
+Treść zadania
+
+Masz listę zakupów:
+
+shopping_list = ["chleb", "masło", "mleko"]
+
+Napisz program, który:
+
+wypisze całą listę zakupów,
+wypisze każdy produkt osobno,
+doda do listy produkt "jajka",
+wypisze nową listę,
+wypisze liczbę produktów na liście.
