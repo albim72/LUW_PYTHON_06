@@ -34,3 +34,23 @@ checkpoints = [
     (102,"Meta",546),
     (104,"Meta",145),
 ]
+
+#grupowanie danych
+runners  = defaultdict(list)
+
+for bib,point,time in checkpoints:
+    runners[bib].append((point,time))
+
+print(runners)
+
+print("_"*70)
+
+print("czas końcowy")
+final_times = {
+    bib:data[-1][1] #('Meta',428) - data.item -> [-1] -> Meta, [1] - czas
+    for bib,data in runners.items()
+}
+
+#ranking
+ranking = sorted(final_times.items(), key=lambda x: x[1])
+print(ranking)
