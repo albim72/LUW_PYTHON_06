@@ -1,0 +1,98 @@
+Zadanie indywidualne: Klasa Car
+Cel zadania
+
+Napisz klasę Car, która opisuje prosty samochód.
+
+Klasa ma mieć:
+
+konstruktor __init__
+atrybuty obiektu
+metody
+warunki if
+zmianę stanu obiektu
+Treść zadania dla kursantów
+
+Utwórz klasę:
+
+Car
+
+Samochód ma przechowywać informacje:
+
+brand       - marka samochodu
+model       - model samochodu
+fuel        - ilość paliwa w litrach
+mileage     - przebieg w kilometrach
+
+Przykład utworzenia obiektu:
+
+car = Car("Toyota", "Corolla", 20, 150000)
+Wymagania
+1. Konstruktor
+
+Konstruktor ma przyjmować:
+
+brand
+model
+fuel
+mileage
+
+i zapisywać je w atrybutach obiektu.
+
+2. Metoda show_info()
+
+Metoda ma wypisać informacje o samochodzie:
+
+Marka: Toyota
+Model: Corolla
+Paliwo: 20 litrów
+Przebieg: 150000 km
+3. Metoda refuel(amount)
+
+Metoda ma zatankować samochód.
+
+Przykład:
+
+car.refuel(10)
+
+Jeśli było 20 litrów paliwa, po tankowaniu powinno być 30 litrów.
+
+Jeżeli użytkownik poda wartość mniejszą lub równą zero, program ma wypisać:
+
+Ilość paliwa musi być większa od zera.
+4. Metoda drive(distance)
+
+Metoda ma przejechać podany dystans.
+
+Zakładamy prosto:
+
+samochód zużywa 1 litr paliwa na 10 km
+
+Czyli:
+
+10 km  - 1 litr
+50 km  - 5 litrów
+100 km - 10 litrów
+
+Jeżeli samochód ma wystarczająco paliwa:
+
+zmniejszamy ilość paliwa
+zwiększamy przebieg
+
+Jeżeli paliwa jest za mało, program ma wypisać:
+
+Za mało paliwa na tę trasę.
+
+Jeżeli dystans jest mniejszy lub równy zero:
+
+Dystans musi być większy od zera.
+5. Metoda is_old()
+
+Metoda ma sprawdzić, czy samochód ma przebieg większy niż 200000 km.
+
+Ma zwracać:
+
+True
+
+albo:
+
+False
