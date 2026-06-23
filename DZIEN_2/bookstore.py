@@ -12,3 +12,12 @@ class Book:
         self.pages = pages
         self.binding = "miękka"
     #zachowanie
+
+if __name__ == '__main__':
+    b1 = Book("ABC ultra biegacza","Marcin Świerc",102,345,22)
+    print(b1)
+    print(b1.binding)
+    print(b1._grubosc)
+    # print(b1.__kolor)
+
+
