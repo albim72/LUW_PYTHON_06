@@ -32,3 +32,7 @@ prices = [22.6,304,101.99,20,89,3.4,1023.77,202,90]
 zadanie uzupełniające - użyj fukcji calc_gross_price() do policzenia cen brutto dla
 wszystkich cen netto produktów zawartych w liście prices 
 """
+
+for price in prices:
+    gross = calc_gross_price(price, 23)
+    print(f"Netto: {price:.2f} zł, Brutto: {gross:.2f} zł")
