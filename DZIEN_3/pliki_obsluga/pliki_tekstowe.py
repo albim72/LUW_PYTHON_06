@@ -1,0 +1,20 @@
+y = open('dane.txt','r',encoding='utf-8')
+print(y.read())
+y.close()
+print("_"*80)
+y = open('dane.txt','r',encoding='utf-8')
+print(y.readline())
+print(y.readline())
+print(y.readline())
+y.close()
+
+h = open('daneabc.txt','w',encoding='utf-8')
+h.write('to jest pierwsza linia....\n')
+h.write('to jest druga linia....\n')
+h.write('to jest trzecia linia....\n')
+
+h.close()
+
+n = open('danexyz.txt','a',encoding='utf-8')
+n.write('to jest k-ta linia....\n')
+n.close()
