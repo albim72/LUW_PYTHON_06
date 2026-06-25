@@ -1,0 +1,20 @@
+[
+{
+    "name": "Anna",
+    "surname": "Kowalska",
+    "points": 67,
+    "city": "Warszawa"
+},
+    {
+    "name": "Jan",
+    "surname": "Kot",
+    "points": 57,
+    "city": "Lublin"
+},
+    {
+    "name": "Ula",
+    "surname": "Nowak",
+    "points": 99,
+    "city": "Katowice"
+}
+]
