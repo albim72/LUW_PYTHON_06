@@ -1,0 +1,17 @@
+import json
+
+student = {
+    "name": "Anna",
+    "surname": "Kowalska",
+    "points": 67,
+    "city":"Warszawa"
+}
+
+try:
+    with open("student.json", "w", encoding="utf-8") as f:
+        json.dump(student, f, ensure_ascii=False, indent=4)
+
+    print("Student JSON zapisany")
+
+except IOError as e:
+    print(e)
