@@ -1,0 +1,31 @@
+﻿typ_wniosku;numer_sprawy;imie;nazwisko;pesel;status;lata_pracy;stopien_niezdolnosci;liczba_dni_zwolnienia
+emerytalny;ZUS/1/2026;Jan;Kowalski;61020312345;nowa;38;;
+emerytalny;ZUS/2/2026;Anna;Nowak;62051423456;w trakcie;33;;
+emerytalny;ZUS/3/2026;Piotr;Wiśniewski;59072134567;nowa;41;;
+emerytalny;ZUS/4/2026;Maria;Wójcik;63091845678;zakończona;36;;
+emerytalny;ZUS/5/2026;Tadeusz;Kaczmarek;58011256789;w trakcie;29;;
+emerytalny;ZUS/6/2026;Barbara;Mazur;60040667890;nowa;37;;
+emerytalny;ZUS/7/2026;Andrzej;Zieliński;57083078901;nowa;44;;
+emerytalny;ZUS/8/2026;Krystyna;Szymańska;64021989012;zakończona;31;;
+emerytalny;ZUS/9/2026;Marek;Dąbrowski;55051190123;w trakcie;40;;
+emerytalny;ZUS/10/2026;Elżbieta;Lewandowska;65072701234;nowa;34;;
+rentowy;ZUS/11/2026;Paweł;Kamiński;78010112346;nowa;;całkowita;
+rentowy;ZUS/12/2026;Agnieszka;Kowalczyk;81031523457;w trakcie;;częściowa;
+rentowy;ZUS/13/2026;Grzegorz;Lis;75062034568;nowa;;całkowita;
+rentowy;ZUS/14/2026;Monika;Witkowska;82090945679;zakończona;;częściowa;
+rentowy;ZUS/15/2026;Dariusz;Pawlak;77112456780;w trakcie;;całkowita;
+rentowy;ZUS/16/2026;Joanna;Król;83040867891;nowa;;częściowa;
+rentowy;ZUS/17/2026;Łukasz;Jankowski;79073178902;nowa;;całkowita;
+rentowy;ZUS/18/2026;Karolina;Czarnecka;85021289013;zakończona;;częściowa;
+rentowy;ZUS/19/2026;Robert;Piotrowski;76050690124;w trakcie;;całkowita;
+rentowy;ZUS/20/2026;Magdalena;Grabowska;84081801235;nowa;;częściowa;
+zasilkowy;ZUS/21/2026;Michał;Nowicki;90010412347;nowa;;;7
+zasilkowy;ZUS/22/2026;Natalia;Pietrzak;92051623458;w trakcie;;;21
+zasilkowy;ZUS/23/2026;Kamil;Adamczyk;89072934569;nowa;;;14
+zasilkowy;ZUS/24/2026;Ewa;Duda;93091145670;zakończona;;;30
+zasilkowy;ZUS/25/2026;Tomasz;Baran;88022356781;w trakcie;;;10
+zasilkowy;ZUS/26/2026;Aleksandra;Sikora;94040767892;nowa;;;18
+zasilkowy;ZUS/27/2026;Rafał;Olszewski;87081978903;nowa;;;5
+zasilkowy;ZUS/28/2026;Patrycja;Michalak;95013089014;zakończona;;;25
+zasilkowy;ZUS/29/2026;Bartosz;Wróbel;86061290125;w trakcie;;;12
+zasilkowy;ZUS/30/2026;Katarzyna;Górska;96092401236;nowa;;;35
