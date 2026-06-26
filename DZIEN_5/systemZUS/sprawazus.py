@@ -2,6 +2,8 @@ from abc import ABC, abstractmethod
 
 
 class SprawaZUS(ABC):
+    licznik_spraw = 0
+
     def __init__(self, numer_sprawy, imie, nazwisko, pesel, status):
         self.numer_sprawy = numer_sprawy
         self.imie = imie
@@ -28,3 +30,12 @@ class SprawaZUS(ABC):
     @abstractmethod
     def opis_sprawy(self):
         pass
+
+    @staticmethod
+    def czy_poprawny_pesel(pesel):
+        return isinstance(pesel, str) and len(pesel) == 11 and pesel.isdigit()
+
+    @classmethod
+    def utworz_numer_sprawy(cls):
+        cls.licznik_spraw += 1
+        return f"ZUS/{cls.licznik_spraw}/2026"
